@@ -1,0 +1,25 @@
+.header {
+  height: 150px;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    width: 50px;
+  }
+}
+
+.logo {
+  /* display: flex; */
+  width: 250px;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    max-width: 150px;
+  }
+}

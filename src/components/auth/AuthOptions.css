@@ -1,0 +1,14 @@
+.auth-options {
+  display: flex;
+}
+
+.auth-options button {
+  display: flex;
+  color: unset;
+  padding: 0 1rem;
+  margin: 2px;
+}
+
+.register {
+  color: white;
+}
